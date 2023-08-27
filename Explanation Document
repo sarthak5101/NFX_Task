@@ -1,0 +1,20 @@
+##  Models Used
+- YOLO (You Only Look Once) object detection model is used in this code.
+- The MediaPipe Pose model is used in this code. The model is provided by the MediaPipe library and is used for pose estimation tasks.
+
+#Framework Used
+- The code uses the OpenCV library (cv2) for image and video processing, as well as for working with the YOLO model.
+- The code uses the MediaPipe library (mediapipe) for pose estimation and visualization of pose landmarks.
+
+#Datasets on which models are trained
+- The YOLO model used in this code is trained on the COCO (Common Objects in Context) dataset. The class labels (object names) are loaded from the coco.names file.
+- The MediaPipe Pose model is trained on proprietary datasets curated by Google for pose estimation tasks.
+
+#Why it is used
+- The YOLO model is chosen for efficient and accurate object detection in images and videos. It's suitable for real-time applications and can detect multiple objects in a single pass.
+- MediaPipe offers pre-trained models for various computer vision tasks, making it convenient for developers to implement solutions without training models from scratch.
+- The Pose model is used to estimate key points of human body poses, which is useful for various applications, including fitness tracking, gesture recognition, and more.
+
+#Refrences
+- The YOLO model and its architecture are detailed in the paper: "You Only Look Once: Unified, Real-Time Object Detection" by Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+- The MediaPipe library's documentation provides information on the Pose model and its capabilities. GitHub repositories related to MediaPipe provide additional implementation details and examples.
